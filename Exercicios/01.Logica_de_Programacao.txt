@@ -1,0 +1,95 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		//Comentários por linha e comentários por bloco
+
+		//Código para escapar da maldição
+
+		/*
+		escreva("Olá Mundo\n")
+		escreva
+("Ufa, escapei da maldição!\n")
+		*/
+
+		//Simulação de uma conversa top - Conversa entre Josivaldo e Carmosina
+
+		/*
+		escreva("Josivaldo - Opa, blz?\nJosivaldo - Eae, vai responder n?\n")
+		escreva("Carmosina - De boas e vc?\n")
+		escreva("Josivaldo - To de boa tbm!\n")
+		escreva("Carmosina - Ok, flw\n")
+		*/
+
+		//Variáveis, Tipos e Identificadores
+
+		/*
+		 * Tipos Primitivos:
+		 * 
+		 * inteiro - Armazenar números inteiros (ex: 1, 2, 3...)
+		 * inteiro x = 5
+		 * 
+		 * real - Armazenam números reais (ex: 1.5, 2.6, 10.59...)
+		 * real y = 5.26
+		 * 
+		 * caracter - Armazena apenas 1 caracter
+		 * caracter letra = 'K'
+		 * 
+		 * cadeia - Armazena uma cadeia de caracteres (por exemplo, uma frase, uma palavra)
+		 * cadeia nome = "Henrique"
+		 * 
+		 * logico - Armazena valores de Verdadeiro ou Falso
+		 * logico lampadaAcesa = falsa
+		 * 
+		 *  Regras para os identificadores
+		 * 
+		 * 1 - Deve começar com uma letra e ela precisa ser minúscula
+		 * 2 - Não pode ter nenhum símbolo no nome, exceto o underline (_)
+		 * 3 - Não pode conter espaços em branco
+		 * 4 - Não pode conter letras com acentos
+		 * 5 - Não pode ser uma palavra reservada
+		 * 
+		 */
+
+		 //Exemplo prático utilizando as variáveis
+
+		 /*
+		 cadeia nome = "Henrique"
+		 inteiro idade = 21
+		 real altura = 1.75
+		 logico gostoDeToddy = verdadeiro
+
+		 //Concatenação de valores utilizando ou uma , ou o símbolo de +
+
+		 escreva("Olá meu nome é ", nome, ", tenho ", idade, " anos de idade, além disso tenho ",
+		 altura, " de altura e é ", gostoDeToddy, " que eu gosto de Toddy")
+		 */
+
+		 //Exemplo de código interagindo diretamente com o usuário
+
+		 cadeia nome
+		 inteiro idade
+		 real altura
+		 cadeia comidaFavorita
+
+		 escreva("Wally - Olá, digite o seu nome: ")
+		 leia(nome) //Comando para receber os inputs do usuário
+
+		 escreva("Wally - Agora, digite sua idade e sua altura: \n")
+		 leia(idade)
+		 leia(altura)
+
+		 escreva("Walyy - Quero te conhecer melhor, qual é sua comida favorita? ")
+		 leia(comidaFavorita)
+
+		 escreva("\n***Cadastro Realizado***\n")
+		 escreva("Wally - Então seu nome é ", nome, ", você tem ", idade, " anos de idade\n", 
+		 ", além disso você tem ", altura, " de altura e sua comida favorita é ", 
+		 comidaFavorita)
+
+		 
+		 
+	}
+}

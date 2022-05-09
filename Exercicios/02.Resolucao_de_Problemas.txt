@@ -1,0 +1,123 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//Operadores Aritméticos
+
+		/*
+		 * 
+		 * Adição +
+		 * Subtração -
+		 * Divisão /
+		 * Multiplicação *
+		 * Módulo % - Retorna o resto da divisão com dois números inteiros
+		 * 
+		 */
+
+		 //Exemplo utilizando os Operadores Aritméticos
+
+		 /*
+		 real num1, num2, resultado
+
+		 escreva("Digite o primeiro número: ")
+		 leia(num1)
+
+		 escreva("Digite o segundo número: ")
+		 leia(num2)
+
+		 resultado = (num1 + num2) / 5
+
+		 escreva("\nO resultado é: ", resultado)
+		 */
+
+		 //Exemplo com módulo
+
+		 /*
+		 inteiro num1 = 10, num2 = 3
+
+		 escreva(num1 % num2)
+		 */
+
+		 /*
+		 //Exemplo prático de calculadora de média
+		 
+		 real n1, n2, n3, n4, media
+		 
+		 escreva("Digite a nota 1: ")
+		 leia(n1)
+		 escreva("Digite a nota 2: ")
+		 leia(n2)
+		 escreva("Digite a nota 3: ")
+		 leia(n3)
+		 escreva("Digite a nota 4: ")
+		 leia(n4)
+
+		 media = (n1 + n2 + n3 + n4) / 4
+
+		 escreva("A sua média final é: ", media)
+
+
+		 //Estrutura condicional
+		 
+		 /*
+		  * se...senao
+		  * 
+		  * se(condicao){
+		  * 
+		  *  O código que será executado se a condição for verdadeira
+		  * 
+		  * }senao{
+		  * 
+		  * 	O código que será executado se a condição for falsa
+		  * 
+		  * }
+		  * 
+		  * 
+		  * Operadores Relacionais:
+		  * 
+		  * == - Verifica se um valor é igual a outro
+		  * != - Verifica se um valor é diferente de outro
+		  * > - Verifica se um valor é maior que outro
+		  * < - Verifica se um valor é menor que outro
+		  * >= - Verifica se um valor é maior ou igual a outro
+		  * <= - Verifica se um valor é menor ou igual a outro
+		  * 
+		  */
+
+		  //Exemplo de se simples
+
+		  /*
+
+		  se(media <= 4){
+		  	
+		  	escreva("\n\nVocê foi REPROVADO >:^)")
+		  	
+		  }senao{
+		  	
+		  	escreva("\n\nVocê foi APROVADO :^)")	
+		  	
+		  }
+		  */
+
+		  //Exemplo de se composto
+
+		  /*
+		  escreva("\n\n")
+
+		  se(media<=4){
+		  	escreva("A média está péssima")	
+		  }senao se(media <= 6){
+		  	escreva("A média está regular")
+		  }senao se(media <= 8){
+		  	escreva("A média está boa!")	
+		  }senao se(media <= 9){
+		  	escreva("A média está ótima!")
+		  }senao{
+		  	escreva("A média está excelente!")
+		  }
+		  */
+		  
+		
+	}
+}

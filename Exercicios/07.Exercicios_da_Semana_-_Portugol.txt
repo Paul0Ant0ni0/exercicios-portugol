@@ -1,0 +1,17 @@
+Exercícios de Lógica
+
+1 - Criar uma conversa, com no mínimo 8 linhas, utlizando o escreva do portugol
+
+2 - Criar uma inteligência artificial, que fará algumas perguntas ao usuário e ele fará os inputs dessa informação. Ao final, o robô precisa fazer o output de todas essas informações
+
+Exercícios - Laços Condicionais (se...senao)
+
+1 - Criar uma calculadora de imc (sem usar os operadores lógicos)
+
+2 - Resolver ao menos dois exercícios da lista: 
+https://drive.google.com/file/d/17tNNUllSwABIsJC3EZqC4risb5NKRQzD/view
+
+Exercícios - Laços de Repetição
+
+1 - Resolver ao menos 1 exercício referente a cada laço:
+https://drive.google.com/file/d/1ONrdsbID-RDr9Dk1Oq4R9uE3kY-G9qbu/view
